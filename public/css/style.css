@@ -294,7 +294,7 @@ p {
 
 .cart-product__quantity--num {
     text-align: center;
-    width: 40%;
+    width: 2em;
     border: 1px solid #f3f3f3;
 }
 
