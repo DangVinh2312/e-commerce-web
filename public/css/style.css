@@ -15,7 +15,9 @@ p {
 }
 
 .btn {
-    background-color: #fff
+    background-color: #fff;
+    padding: 0;
+    border: 0;
 }
 /* Header */
 .header {
@@ -222,14 +224,14 @@ p {
     text-align: center;
 }
 
-.cart__header--act {
+.cart__header--act{
     flex: 1;
     text-align: center;
 }
 
 .cart-container__table{
     width: 1200px;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 .cart__body {
@@ -284,8 +286,10 @@ p {
     justify-content: center;
 }
 
-.btn--decrease, .btn--increase {
+.btn-decrease, .btn-increase {
     border: 1px solid #f3f3f3;
+    cursor: pointer;
+    padding: 0 10px;
 }
 
 .cart-product__quantity--num {
@@ -307,12 +311,19 @@ input::-webkit-inner-spin-button {
 .product-box__handle--total-price {
     flex: 1;
     text-align: right;
-    color: linear-gradient(0, #ff6333, #e93d2c);
+    color: #f0632d;
 }
 
-.product-box__handle--delete{
+.btn-delete{
     flex: 1;
     text-align: center;
+    cursor: pointer;
+}
+
+.btn-delete:hover{
+    flex: 1;
+    text-align: center;
+    color: #f0632d;
 }
 
 .cart__footer {
@@ -326,8 +337,9 @@ input::-webkit-inner-spin-button {
     bottom: 0;
 }
 
-.cart-footer__delete-all {
-    padding: 20px;
+.btn__delete--all {
+    padding: 0 20px;
+    cursor: pointer;
 }
 
 .cart-footer__handle--purchase {
@@ -343,11 +355,12 @@ input::-webkit-inner-spin-button {
     color: #f0632d;
 }
 
-.btn--purchase {
+.btn-purchase {
     background: linear-gradient(0, #ff6333, #e93d2c);
     outline: none;
     border: 0;
     padding: 15px 40px;
     margin: 10px;
+    cursor: pointer;
 }
 
