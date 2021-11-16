@@ -189,6 +189,10 @@ p {
     flex: 1;
 }
 
+.container__cart a {
+    color: #ffffff;
+}
+
 .hidden {
     display: none;
 }
