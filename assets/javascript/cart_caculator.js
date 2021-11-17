@@ -67,6 +67,16 @@ const deleteAll = document.querySelector('.btn__delete--all');
 deleteAll.addEventListener('click', deleteAllProductsFromCart);
 
 function deleteAllProductsFromCart() {
-    const cartTable = document.querySelector('.cart-container');
-    cartTable.remove();
+    const modalDelete = document.querySelector('.modal__delete');
+    modalDelete.classList.remove('hidden');
+    const closeModalDelete = modalDelete.querySelector('.btn-close');
+    closeModalDelete.onclick = () => {
+        modalDelete.classList.add('hidden');
+    }
+    const confirmModalDelete = modalDelete.querySelector('.btn-delete-all');
+    confirmModalDelete.onclick = () => {
+        const cartTable = document.querySelector('.cart-container');
+        cartTable.remove();
+        modalDelete.classList.add('hidden');
+    }
 }

@@ -30,6 +30,15 @@ p {
     padding: 0;
     border: 0;
 }
+
+.modal__delete {
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+}
 /* Header */
 .header {
     background: linear-gradient(0, #ff6333, #e93d2c);
@@ -160,7 +169,7 @@ p {
 }
 
 .search__icon:hover {
-    background: #f98579;;
+    background: #f98579;
     height: 34px;
     width: 60px;
     display: flex;
@@ -377,6 +386,38 @@ input::-webkit-inner-spin-button {
     padding: 15px 40px;
     margin: 10px;
     cursor: pointer;
+}
+
+.modal__delete--body {
+    margin: 30px;
+}
+
+.modal__delete--footer{
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.btn-close {
+    background: linear-gradient(0, #ff6333, #e93d2c);
+    width: fit-content;
+    padding: 10px 25px; 
+    color: #fff;
+    margin-right: 20px;
+}
+
+.btn-close:hover {
+    color: #fff;
+    background: #f98579;
+}
+
+.btn-delete-all {
+    padding: 10px 35px; 
+    width: fit-content;
+    margin-right: 30px;
+}
+
+.btn-delete-all:hover {
+    background: #e6dddb;
 }
 
 /* CSS CỦA TỚI */
