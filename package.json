@@ -1,0 +1,29 @@
+{
+  "name": "project_fullstack_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chubuc2411/e-commerce-web.git"
+  },
+  "keywords": [
+    "e-commerce-web"
+  ],
+  "author": "DQV, DXT, DHH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chubuc2411/e-commerce-web/issues"
+  },
+  "homepage": "https://github.com/chubuc2411/e-commerce-web#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

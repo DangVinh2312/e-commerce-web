@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detail</title>
-    <link rel="stylesheet" href="assets/font/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css">
-    <link rel="stylesheet" href="assets/style.css">
-    <script defer  src="assets/javascript/detail_product.js"/></script>
+    <title>Fullstack Project</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="/font/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css">
+    <script defer src="/javascript/cart_caculator.js"></script>
 
 </head>
+
 <body>
     <header>
         <div class="header">
@@ -70,199 +72,172 @@
                 </div>
             </div>
         </div>
-
-
     </header>
 
-    <div class="product-details grid">
-        <div class="product-detail__images">
-            <div class="product-detail__image--big">
-                <img src="assets/images/product__detail/micro-big.jpg" alt="">
-            </div>
-            <div class="product-detail__image__small">
-                <img src="assets/images/product__detail/micro-small1.jpg" alt="" class = "product-detail__image--active">
-                <img src="assets/images/product__detail/micro-small2.jpg" alt="">
-                <img src="assets/images/product__detail/micro-small3.jpg" alt="">
-                <img src="assets/images/product__detail/micro-small4.jpg" alt="">
-                <img src="assets/images/product__detail/micro-small3.jpg" alt="">
-            </div>
-        </div>
-        <div class="product-detail__information">
-            <div class="product__information__title">
-                <div class = "product__information__ratefavorite">
-                    Yêu Thích
+    <section class="cart">
+        <div class="cart-container">
+            <div class="cart-container__table">
+                <div class="cart__header">
+                    <div class="cart__header--info">Sản phẩm</div>
+                    <div class="cart__header--cost">Đơn giá</div>
+                    <div class="cart__header--quantity">Số lượng</div>
+                    <div class="cart__header--total-price">Số tiền</div>
+                    <div class="cart__header--act">Thao tác</div>
                 </div>
-                <span>
-                    Micro thu âm nhỏ gọn giắc cắm 3.5mm tiện dụng cho điện thoại máy tính PC
-                </span>
-            </div>
-            <div class="product-detail__ratecollection">
-                <div class="product__ratecollection__stars">
-                    <span>4.7</span>
-                    <svg enable-background="new 0 0 15 15" viewBox="0 0 15 15" x="0" y="0" class="shopee-svg-icon shopee-rating-stars__primary-star icon-rating-solid"><polygon points="7.5 .8 9.7 5.4 14.5 5.9 10.7 9.1 11.8 14.2 7.5 11.6 3.2 14.2 4.3 9.1 .5 5.9 5.3 5.4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></polygon></svg>
-                    <svg enable-background="new 0 0 15 15" viewBox="0 0 15 15" x="0" y="0" class="shopee-svg-icon shopee-rating-stars__primary-star icon-rating-solid"><polygon points="7.5 .8 9.7 5.4 14.5 5.9 10.7 9.1 11.8 14.2 7.5 11.6 3.2 14.2 4.3 9.1 .5 5.9 5.3 5.4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></polygon></svg>
-                    <svg enable-background="new 0 0 15 15" viewBox="0 0 15 15" x="0" y="0" class="shopee-svg-icon shopee-rating-stars__primary-star icon-rating-solid"><polygon points="7.5 .8 9.7 5.4 14.5 5.9 10.7 9.1 11.8 14.2 7.5 11.6 3.2 14.2 4.3 9.1 .5 5.9 5.3 5.4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></polygon></svg>
-                    <svg enable-background="new 0 0 15 15" viewBox="0 0 15 15" x="0" y="0" class="shopee-svg-icon shopee-rating-stars__primary-star icon-rating-solid"><polygon points="7.5 .8 9.7 5.4 14.5 5.9 10.7 9.1 11.8 14.2 7.5 11.6 3.2 14.2 4.3 9.1 .5 5.9 5.3 5.4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></polygon></svg>
-                    <svg enable-background="new 0 0 15 15" viewBox="0 0 15 15" x="0" y="0" class="shopee-svg-icon shopee-rating-stars__primary-star icon-rating-solid"><polygon points="7.5 .8 9.7 5.4 14.5 5.9 10.7 9.1 11.8 14.2 7.5 11.6 3.2 14.2 4.3 9.1 .5 5.9 5.3 5.4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></polygon></svg>
-                </div>
-                <div class="product__ratecollection__user">
-                    <span>
-                        88
-                    </span>
-                    Đánh Giá
-                </div>
-                <div class="product__ratecollection__sold">
-                    <span>
-                       236
-                    </span>
-                    Đã Bán
-                </div>
-            </div>
-            <div class="product__informationprice">
-                <div class="product__informationprice__detail">
-                    <span class="product__detail__oldprice">
-                        <span>₫</span>331.487
-                    </span>
-                    <span class="product__detail__currentprice">
-                        <span>₫</span>172.000
-                    </span>
-                    <span class="product__detail__promotion">
-                        48% GIẢM
-                    </span>
-                </div>
-            </div>
-            <div class="product__delivery">
-                <span class="product__delivery__title">
-                    Vận Chuyển
-                </span>
-                <span class="product__delivery__free">
-                   <img src="assets/images/product__detail/freeshiplogo.png" alt=""> 
-                </span>
-                <span class= "product__delivery__text">Miễn phí vận chuyển</span>
-            </div>
-            <div class="product__quantitybuy">
-                <span class="product__quantitybuy__title">
-                    Số Lượng
-                </span>
-                <div class="product__quantiybuy__choice">
-                    <button class="product__choicesign" id = "product-minus">
-                        -
-                    </button>
-                    <input type = "text" value = 1 class="product__choicesign--input"/>
-                    
-                    <button class="product__choicesign" id = "product-plus">
-                        +
-                    </button>
-                </div>
-                <div class="product__quantitybuy__available">
-                    <span>762</span> Sản phẩm có sẵn
-                </div>
-            </div>
-            <div class="product__addcartorbuy">
-                <button class="button-joint product__addcart">
-                    <i class="fas fa-cart-plus"></i>
-                     Thêm Vào Giỏ Hàng
-                </button>
-                <button class="button-joint product__buyimmediately">
-                    Mua Ngay
-                </button>
-            </div>
-            <div class="product__conditionreturn">
-                <div class="product__conditionreturn__commit">
-                    <img src="assets/images/product__detail/shopeebrandreturn.png" alt="">
-                    Shopee Đảm Bảo
-                </div>
-                <span>
-                    3 Ngày Trả Hàng / Hoàn Tiền
-                </span>
-            </div>
-        </div>
-    </div>
-
-    <footer>
-        <div class="footer">
-            <div class="footer__container">
-                <strong class="footer__title">CHĂM SÓC KHÁCH HÀNG</strong>
-                <ul class="footer__nav">
-                    <li><a href="">Trung tâm trợ giúp</a></li>
-                    <li><a href="">Shopee Blog</a></li>
-                    <li><a href="">Shopee Mall</a></li>
-                    <li><a href="">Hướng dẫn mua hàng</a></li>
-                    <li><a href="">Hướng dẫn bán hàng</a></li>
-                    <li><a href="">Thanh toán</a></li>
-                    <li><a href="">Shopee Xu</a></li>
-                    <li><a href="">Vận chuyển</a></li>
-                    <li><a href="">Trả hàng & Hoàn tiền</a></li>
-                    <li><a href="">Chăm sóc khách hàng</a></li>
-                    <li><a href="">Chính sách bảo hành</a></li>
-                </ul>
-            </div>
-            <div class="footer__container">
-                <strong class="footer__title">Về SHOPPE</strong>
-                <ul class="footer__nav">
-                    <li><a href="">Giới thiệu về Shopee Việt Nam</a></li>
-                    <li><a href="">Tuyển dụng</a></li>
-                    <li><a href="">Điều Khoản Shopee</a></li>
-                    <li><a href="">Chính sách bảo mật</a></li>
-                    <li><a href="">Chính Hãng</a></li>
-                    <li><a href="">Kênh Người bán</a></li>
-                    <li><a href="">Flash Sales</a></li>
-                    <li><a href="">Chương trình Tiếp thị liên kết Shopee</a></li>
-                    <li><a href="">Liên Hệ Với Truyền Thông</a></li>
-                </ul>
-            </div>
-            <div class="footer__container">
-                <div>
-                    <strong class="footer__title">THANH TOÁN</strong> 
-                    <div>
-                        <img src="assets/images/anh1.png" />
-                    </div>
-                </div>
-                <div>
-                    <strong class="footer__title footer--no-margin-top">ĐƠN VỊ VẬN CHUYỂN</strong>
-                    <div>
-                        <img src="assets/images/anh2.png" />
-                    </div>
-                </div>
-            </div>
-            <div class="footer__container">
-                <strong class="footer__title">THEO DÕI CHÚNG TÔI TRÊN</strong>
-                <ul class="footer__nav">
-                    <li>
-                        <a href="" class="footer__social">
-                            <div><i class="fab fa-facebook"></i></div>
-                            Facebook
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="footer__social">
-                            <div><i class="fab fa-instagram-square"></i></div>
-                            Instagram
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="footer__social">
-                            <div><i class="fab fa-linkedin"></i></div>
-                            LinkedIn
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer__container">
-                <strong class="footer__title">TẢI ỨNG DỤNG SHOPPE NGAY THÔI</strong>
-                <a href="">
-                    <div class="footer__app">
-                        <img src="assets/images/d91264e165ed6facc6178994d5afae79.png" class="footer__app--element"/>
-                        <div >
-                            <img src="assets/images/39f189e19764dab688d3850742f13718.png" />
-                            <img src="assets/images/f4f5426ce757aea491dce94201560583.png" />
-                            <img src="assets/images/1ae215920a31f2fc75b00d4ee9ae8551.png" />
+                <div class="cart__body">
+                    <div class="cart__product--box">
+                        <div class="cart-product__box--handle">
+                            <div class="product-box__handle--info">
+                                <img src="https://cf.shopee.vn/file/16c0d2a28dfb81dd4f26d4bb1872666b"
+                                    class="product-box-handle__info--img" alt="">
+                                <span class="product-box-handle__info--description">Mic cài áo microphone ghi âm, thu âm
+                                    cho điện
+                                    thoại,
+                                    máy
+                                    ảnh, lapt ...</span>
+                            </div>
+                            <div class="product-box__handle--cost">
+                                <span class="cart-product__cost--current-price"><del>đ65.900</del></span>
+                                <span class="cart-product__cost--after-sale">đ59.900</span>
+                                <p class="cart-product__cost--sale">Giảm Giá 8%</p>
+                            </div>
+                            <div class="product-box__handle--quantity">
+                                <button class="btn btn-decrease">-</button>
+                                <input type="number" value="1" class="cart-product__quantity--num">
+                                <button class="btn btn-increase">+</button>
+                            </div>
+                            <div class="product-box__handle--total-price">đ59.900</div>
+                            <button class="btn btn-delete">Xóa</button>
                         </div>
                     </div>
-                </a>
+
+                    <div class="cart__product--box">
+                        <div class="cart-product__box--handle">
+                            <div class="product-box__handle--info">
+                                <img src="https://cf.shopee.vn/file/16c0d2a28dfb81dd4f26d4bb1872666b"
+                                    class="product-box-handle__info--img" alt="">
+                                <span class="product-box-handle__info--description">Mic cài áo microphone ghi âm, thu âm
+                                    cho điện
+                                    thoại,
+                                    máy
+                                    ảnh, lapt ...</span>
+                            </div>
+                            <div class="product-box__handle--cost">
+                                <span class="cart-product__cost--current-price"><del>đ65.900</del></span>
+                                <span class="cart-product__cost--after-sale">đ59.900</span>
+                                <p class="cart-product__cost--sale">Giảm Giá 8%</p>
+                            </div>
+                            <div class="product-box__handle--quantity">
+                                <button class="btn btn-decrease">-</button>
+                                <input type="number" value="1" class="cart-product__quantity--num">
+                                <button class="btn btn-increase">+</button>
+                            </div>
+                            <div class="product-box__handle--total-price">đ59.900</div>
+                            <button class="btn btn-delete">Xóa</button>
+                        </div>
+                    </div>
+
+                    <div class="cart__product--box">
+                        <div class="cart-product__box--handle">
+                            <div class="product-box__handle--info">
+                                <img src="https://cf.shopee.vn/file/16c0d2a28dfb81dd4f26d4bb1872666b"
+                                    class="product-box-handle__info--img" alt="">
+                                <span class="product-box-handle__info--description">Mic cài áo microphone ghi âm, thu âm
+                                    cho điện
+                                    thoại,
+                                    máy
+                                    ảnh, lapt ...</span>
+                            </div>
+                            <div class="product-box__handle--cost">
+                                <span class="cart-product__cost--current-price"><del>đ65.900</del></span>
+                                <span class="cart-product__cost--after-sale">đ59.900</span>
+                                <p class="cart-product__cost--sale">Giảm Giá 8%</p>
+                            </div>
+                            <div class="product-box__handle--quantity">
+                                <button class="btn btn-decrease">-</button>
+                                <input type="number" value="1" class="cart-product__quantity--num">
+                                <button class="btn btn-increase">+</button>
+                            </div>
+                            <div class="product-box__handle--total-price">đ59.900</div>
+                            <button class="btn btn-delete">Xóa</button>
+                        </div>
+                    </div>
+
+                    <div class="cart__product--box">
+                        <div class="cart-product__box--handle">
+                            <div class="product-box__handle--info">
+                                <img src="https://cf.shopee.vn/file/16c0d2a28dfb81dd4f26d4bb1872666b"
+                                    class="product-box-handle__info--img" alt="">
+                                <span class="product-box-handle__info--description">Mic cài áo microphone ghi âm, thu âm
+                                    cho điện
+                                    thoại,
+                                    máy
+                                    ảnh, lapt ...</span>
+                            </div>
+                            <div class="product-box__handle--cost">
+                                <span class="cart-product__cost--current-price"><del>đ65.900</del></span>
+                                <span class="cart-product__cost--after-sale">đ59.900</span>
+                                <p class="cart-product__cost--sale">Giảm Giá 8%</p>
+                            </div>
+                            <div class="product-box__handle--quantity">
+                                <button class="btn btn-decrease">-</button>
+                                <input type="number" value="1" class="cart-product__quantity--num">
+                                <button class="btn btn-increase">+</button>
+                            </div>
+                            <div class="product-box__handle--total-price">đ59.900</div>
+                            <button class="btn btn-delete">Xóa</button>
+                        </div>
+                    </div>
+
+                    <div class="cart__product--box">
+                        <div class="cart-product__box--handle">
+                            <div class="product-box__handle--info">
+                                <img src="https://cf.shopee.vn/file/16c0d2a28dfb81dd4f26d4bb1872666b"
+                                    class="product-box-handle__info--img" alt="">
+                                <span class="product-box-handle__info--description">Mic cài áo microphone ghi âm, thu âm
+                                    cho điện
+                                    thoại,
+                                    máy
+                                    ảnh, lapt ...</span>
+                            </div>
+                            <div class="product-box__handle--cost">
+                                <span class="cart-product__cost--current-pđ65.900rice"></span>
+                                <span class="cart-product__cost--after-sale">đ59.900</span>
+                                <p class="cart-product__cost--sale">Giảm Giá 8%</p>
+                            </div>
+                            <div class="product-box__handle--quantity">
+                                <button class="btn btn-decrease">-</button>
+                                <input type="number" value="1" class="cart-product__quantity--num">
+                                <button class="btn btn-increase">+</button>
+                            </div>
+                            <div class="product-box__handle--total-price">đ59.900</div>
+                            <button class="btn btn-delete">Xóa</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart__footer">
+                <button class="btn btn__delete--all">Xóa giỏ hàng</button>
+                <div class="cart-footer__handle--purchase">
+                    <p class="cart-footer-handle__purchase--text">Tổng thanh toán <span>5</span> sản phẩm </p>
+                    <h3 class="cart-footer-handle__purchase--total">đ299.500</h3>
+                    <button class="btn btn-purchase">Mua hàng</button>
+                </div>
             </div>
         </div>
-    </footer>
+
+        <div class="modal__delete hidden">
+            <div class="modal__delete--body">
+                Bạn có chắc chắn muốn xóa?
+            </div>
+            <div class="modal__delete--footer">
+                <button type="button" class="btn btn-close">Trở lại</button>
+                <button type="button" class="btn btn-delete-all">Có</button>
+            </div>
+        </div>
+    </section>
 
 </body>
+
 </html>
