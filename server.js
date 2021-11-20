@@ -31,6 +31,3 @@ app.listen(process.env.PORT || port, () => {
     getData();
     console.log('Listen on port: ' + port);
 });
-
-//mongodb+srv://admin:admin@ecommercedata.2rahr.mongodb.net/test
-//process.env.MONGODB_URL
