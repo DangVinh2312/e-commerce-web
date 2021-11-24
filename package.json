@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chubuc2411/e-commerce-web.git"
+    "url": "git+https://github.com/DangVinh2312/e-commerce-web.git"
   },
   "keywords": [
     "e-commerce-web"
@@ -17,9 +17,9 @@
   "author": "DQV, DXT, DHH",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chubuc2411/e-commerce-web/issues"
+    "url": "https://github.com/DangVinh2312/e-commerce-web/issues"
   },
-  "homepage": "https://github.com/chubuc2411/e-commerce-web#readme",
+  "homepage": "https://github.com/DangVinh2312/e-commerce-web#readme",
   "dependencies": {
     "express": "^4.17.1",
     "mongodb": "^4.2.0"
